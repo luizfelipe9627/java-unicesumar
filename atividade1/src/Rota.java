@@ -1,8 +1,8 @@
 import javax.swing.JOptionPane; // Importa a classe JOptionPane do pacote javax.swing, responsável por exibir caixas de diálogo.
 
 // Criado a classe Rota.
-public class Rota2 {
-  // Método principal da classe.
+public class Rota {
+  // Método publica chamado planejarDia.
   public void planejarDia() {
     // Imprime a mensagem para o usuário digitar a quantidade de rotas e armazena na variável quantidadeRotas.
     int quantidadeRotas = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de rotas: "));

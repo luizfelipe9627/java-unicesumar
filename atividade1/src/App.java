@@ -1,11 +1,9 @@
-// Criado a classe App.
+// Classe principal da aplicação.
 public class App {
-    // Método principal da classe.
+    // Método principal da aplicação.
     public static void main(String[] args) {
         // Instancia a classe Rota, ou seja, cria um objeto da classe Rota.
-        // Rota 1 -> java.util.Scanner.
-        // Rota 2 -> javax.swing.JOptionPane.
-        Rota2 r = new Rota2();
+        Rota r = new Rota();
         // Chama o método planejarDia da classe Rota.
         r.planejarDia();
     }
