@@ -1,4 +1,5 @@
-import javax.swing.JOptionPane; // Importa a classe JOptionPane do pacote javax.swing, responsável por exibir caixas de diálogo.
+// Importa a classe JOptionPane do pacote javax.swing, responsável por exibir caixas de diálogo.
+import javax.swing.JOptionPane; 
 
 // Criado a classe Rota.
 public class Rota {
@@ -9,9 +10,9 @@ public class Rota {
 
     int[] quantidadeKm = new int[quantidadeRotas]; // Criado um array vazia para armazenar a quantidade de km de cada rota e armazena na variável quantidadeKm.
 
-    // Cria um laço de repetição que se repete a conforme a quantidade de rotas digitadas pelo usuário.
+    // Cria um laço de repetição que cria uma variável i com valor 0, enquanto i for menor que a quantidade de rotas, o laço vai se repetir e incrementar o valor de 1 ao i.
     for (int i = 0; i < quantidadeRotas; i++) {
-      // Imprime a mensagem para o usuário digitar a quantidade de km de cada rota e armazena no array.
+      // Imprime a mensagem para o usuário digitar a quantidade de km da rota e armazena na variável quantidadeKm.
       quantidadeKm[i] = Integer
           .parseInt(JOptionPane.showInputDialog("Digite a quantidade de km da rota " + (i + 1) + ": "));
     }
